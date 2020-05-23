@@ -1,0 +1,26 @@
+<app-portfolio-header></app-portfolio-header>
+<div class="page">
+  <section class="portfolio-content">
+    <div class="row portfolio-item border-bottom"
+         *ngFor="let project of projects">
+      <div class="col-sm-2 image-container">
+        <img [src]="'assets/portfolio/'+project.imageUrl" class="img-fluid" alt="Image for project: {{project.name}}">
+      </div>
+      <div class="col-sm-10">
+        <section>
+          <div class="row no-gutters">
+            <div class="col-sm-5">
+              <h4>{{project.name}}</h4>
+            </div>
+          </div>
+          <p>
+            {{project.description}}
+          </p>
+          <p class="badge-container">
+            <span class="badge badge-pill badge-light" *ngFor="let tech of project.technologies">{{tech}}</span>
+          </p>
+        </section>
+      </div>
+    </div>
+  </section>
+</div>

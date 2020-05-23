@@ -1,0 +1,154 @@
+/* You can add global styles to this file, and also import other style files */
+// Import Bootstrap source files from node_modules
+@import '~bootstrap/scss/functions';
+@import '~bootswatch/dist/flatly/variables';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/flatly/bootswatch';
+
+//div, section, aside, ul, li, p, span, a {
+//  border: solid 1px;
+//}
+
+.col-sm-6, .col-sm-9 {
+  border-color: red;
+}
+
+section {
+  border-color: blue;
+}
+
+.row {
+  border-color: green;
+}
+
+:root {
+  --A4-page-width: 21cm;
+  --A4-page-height: 29.7cm;
+  --A4-page-width-large: calc(var(--A4-page-width) * 1.25);
+  --A4-page-height-large: calc(var(--A4-page-height) * 1.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.page {
+  position: relative;
+  padding: 0;
+
+  background-color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  margin: 2rem auto;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase !important;
+  word-spacing: 2px;
+}
+
+h1 {
+  font-size: 2.35rem;
+  letter-spacing: 0.175rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  //border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+  font-weight: 700;
+  padding: 0.5rem;
+  background-color: #2C3E50;
+  color: white;
+  margin: 0 -0.5rem 0.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.badge {
+  margin-right: 0.3rem;
+  font-size: 0.9rem;
+  padding: 0.35rem;
+  border: none;
+}
+
+.badge-container {
+  line-height: 1.8rem;
+}
+
+.badge-light {
+  background-color: #d4d8d8;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+article, section {
+  margin-bottom: 1rem;
+}
+
+section:last-of-type, p:last-of-type {
+  margin-bottom: 0;
+}
+
+aside {
+  height: 100%;
+  padding-left: 3rem;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  body {
+    padding: 0;
+    text-align: left;
+
+    background-color: transparent;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .page {
+    position: static;
+    size: A4 portrait;
+    margin: 0;
+    width: 100% !important;
+    height: auto;
+    max-width: 100% !important;
+    page-break-after: always;
+  }
+}
