@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --aot --base-href https://kp-marczynski.github.io/portfolio-io/ && ngh --dir dist/portfolio-io"
+    "deploy": "ng build --prod --aot --base-href https://kp-marczynski.github.io/portfolio/ && ngh --dir dist/portfolio-io"
   },
   "private": true,
   "dependencies": {

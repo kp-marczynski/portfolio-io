@@ -58,11 +58,11 @@ export class RepositoryService {
             'Android library for extracting GS1-128 data from barcodes.',
             'https://github.com/kp-marczynski/barcode-parser'
           ),
-          new PortfolioProject('Resume.io & Portfolio.io', '2020', 'undraw_online_cv_qy9w.svg',
+          new PortfolioProject('Resume & Portfolio', '2020', 'undraw_online_cv_qy9w.svg',
             ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Bootstrap', 'Github Pages'],
             'Web based resume and portfolio designed to automatically provide aesthetically pleasing printable layout for given data. ' +
             'Due to personal data stored in resume repository, only portfolio project is publicly available.',
-            'https://github.com/kp-marczynski/portfolio-io'),
+            'https://github.com/kp-marczynski/portfolio'),
           new PortfolioProject('Ionic Songbook', '2020', 'undraw_listening_1u79.svg',
             ['Angular', 'TypeScript', 'Ionic', 'IndexedDB', 'Firebase OAuth', 'Firebase Hosting', 'Firestore', 'PWA', 'HTML', 'SCSS'],
             'Songbook developed as a hybrid web app. The first application on the market to offer sharing ' +
