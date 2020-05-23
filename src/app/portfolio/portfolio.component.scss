@@ -1,6 +1,6 @@
 .portfolio-content {
   padding: 1rem 3rem 0;
-  @media (max-width: 750px) {
+  @media screen and (max-width: 750px) {
     padding: 1rem 1rem 0;
   }
 }
@@ -23,5 +23,11 @@
   @media print
   {
       page-break-inside: avoid;
+  }
+}
+
+@media print {
+  .page {
+    page-break-inside: avoid;
   }
 }

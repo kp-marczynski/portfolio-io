@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {IPortfolioProject, PortfolioProject} from '../../model/portfolio-project.model';
 import {LinkShortenerService} from '../../service/link-shortener.service';
 import {RepositoryService} from '../../service/repository.service';
 import {IProjectsYear} from '../../model/projects-year';

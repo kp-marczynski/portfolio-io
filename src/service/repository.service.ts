@@ -20,7 +20,7 @@ export class RepositoryService {
   }
 
   getCoreSkills(): ISkillGroup {
-    return new SkillGroup('Core', ['Java', 'Kotlin', 'Spring', 'Angular', 'SQL']);
+    return new SkillGroup('Core', ['Java', 'Kotlin', 'Spring', 'Angular', 'TypeScript', 'SQL']);
   }
 
   getAllContactInfo(): IContactInfo[] {
@@ -54,16 +54,17 @@ export class RepositoryService {
             'Barcode Parser',
             '2020',
             'undraw_task_31wc.svg',
-            ['Kotlin', 'Android library'],
-            'Android library for extracting data from barcodes',
+            ['Kotlin', 'Android library', 'GS1-128'],
+            'Android library for extracting GS1-128 data from barcodes.',
             'https://github.com/kp-marczynski/barcode-parser'
           ),
           new PortfolioProject('Resume.io & Portfolio.io', '2020', 'undraw_online_cv_qy9w.svg',
-            ['Angular', 'HTML', 'SCSS', 'Bootstrap'],
-            'Web based resume and portfolio designed to automatically provide aesthetically pleasing printable layout for given data. Because of personal data, only portfolio is publicly available',
+            ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Bootstrap', 'Github Pages'],
+            'Web based resume and portfolio designed to automatically provide aesthetically pleasing printable layout for given data. ' +
+            'Because of personal data, only portfolio is publicly available.',
             'https://github.com/kp-marczynski/portfolio-io'),
           new PortfolioProject('Ionic Songbook', '2020', 'undraw_listening_1u79.svg',
-            ['Angular', 'Ionic', 'IndexedDB', 'Firebase OAuth', 'Firebase Hosting', 'Firestore', 'PWA', 'SCSS'],
+            ['Angular', 'TypeScript', 'Ionic', 'IndexedDB', 'Firebase OAuth', 'Firebase Hosting', 'Firestore', 'PWA', 'HTML', 'SCSS'],
             'Songbook developed as a hybrid web app. The first application on the market to offer sharing ' +
             '(and automatic refreshing after change) of the song currently played by the guitarist to all campfire participants.',
             'https://github.com/kp-marczynski/songbook'),
@@ -71,7 +72,7 @@ export class RepositoryService {
             'Smarthome',
             '2020',
             'undraw_smart_home_28oy.svg',
-            ['Firebase', 'ESP8266', 'Arduino', 'OAuth', 'Auth0', 'Cloud functions', 'Angular'],
+            ['Firebase', 'ESP8266', 'Arduino', 'OAuth', 'Auth0', 'Cloud functions', 'Angular', 'TypeScript', 'Firebase Hosting'],
             'System for managing smart home devices based on ESP8266 board via Firebase and webapp with OAuth authentication.',
             'https://github.com/kp-marczynski/smarthome'
           ),
@@ -87,7 +88,7 @@ export class RepositoryService {
             'Simple IRC Chat',
             '2020',
             'undraw_online_chat_d7ek.svg',
-            ['Kotlin', 'Angular', 'Websockets', 'RabbitMQ'],
+            ['Kotlin', 'Angular', 'TypeScript', 'Websockets', 'RabbitMQ'],
             'IRC chat foundation app.',
             'https://github.com/kp-marczynski/im-chat'
           )
@@ -97,19 +98,19 @@ export class RepositoryService {
         2019,
         [
           new PortfolioProject('Dietify', '2019', 'undraw_cookie_love_ulvn.svg',
-            ['Java', 'Spring', 'Angular', 'Netflix OSS', 'PostgreSQL', 'Liquibase', 'Gradle', 'Docker', ' Gitlab CI/CD', 'JHipster'],
+            ['Java', 'Spring Boot', 'Angular', 'TypeScript', 'Netflix OSS', 'PostgreSQL', 'Liquibase', 'Gradle', 'Docker', ' Gitlab CI/CD', 'JHipster', 'UML', 'JUnit', 'Mockito', 'Heroku'],
             'Diet management system based on microservice architecture designed for my bachelor thesis. ' +
             'Created solution can be used by dietitians in order to conduct comprehensive service of the patient’s visit with particular ' +
             'emphasis on designing the meal plans and sharing them with patients.',
             'https://github.com/kp-marczynski/dietify'),
           new PortfolioProject('Hitchwiki POI', '2019', 'undraw_directions_x53j.svg',
-            ['Angular', 'Ionic', 'PWA', 'Bootstrap', 'Github Pages', 'SCSS'],
+            ['Angular', 'TypeScript', 'Ionic', 'PWA', 'Bootstrap', 'Github Pages', 'SCSS', 'Open Street Map', 'OpenLayers'],
             'Hitchhiker companion app with geolocated "hitchability" points gathered via ' +
             'the Hitchwiki API optimized for offline and low bandwidth usage. ' +
             'Application is deployed online and has been successfully used by many users in real life situations.',
             'https://github.com/kp-marczynski/hitchwiki-poi'),
           new PortfolioProject('Nine Mens Morris', '2019', 'undraw_old_day_6x25.svg',
-            ['Angular', 'PWA', 'Alpha-Beta Pruning Algorithm', 'Minimax Algorithm', 'Material Design', 'Github Pages'],
+            ['Angular', 'TypeScript', 'PWA', 'Alpha-Beta Pruning Algorithm', 'Minimax Algorithm', 'Material Design', 'Github Pages'],
             'A nine men\'s morris game where player can play against another human or one of two AI algorithms: ' +
             'alpha-beta pruning and minimax.',
             'https://github.com/kp-marczynski/si-nine-mens-morris'),
@@ -120,7 +121,7 @@ export class RepositoryService {
             'and the results are presented on charts.',
             'https://github.com/kp-marczynski/si-traveling-thief-problem'),
           new PortfolioProject('Medicus', '2019', 'undraw_medicine_b1ol.svg',
-            ['Kotlin', 'Spring', 'Angular', 'PostgreSQL', 'Liquibase', 'JHipster', 'Heroku'],
+            ['Kotlin', 'Spring Boot', 'Angular', 'TypeScript', 'PostgreSQL', 'Liquibase', 'JHipster', 'Heroku', 'HTML', 'SCSS', 'Heroku'],
             'App for managing medical history records focused on adding scans of original documents ' +
             'and generating chronological reports with clearly marked abnormal results.',
             'https://github.com/kp-marczynski/medicus'),
@@ -145,22 +146,22 @@ export class RepositoryService {
             '2019',
             'undraw_server_down_s4lk.svg',
             ['XML-RPC', 'Gradle', 'Java'],
-            'Realisation of task for Uni \'Distributed IT Systems\' course',
+            'Realisation of task for Uni \'Distributed IT Systems\' course.',
             'https://github.com/kp-marczynski/rsi-xmlrpc'
           ),
           new PortfolioProject('Oracle',
             '2019',
             'undraw_maintenance_cn7j.svg',
             ['Oracle DB', 'PL/SQL'],
-            '',
-            ''
+            'Realization of tasks for Uni course \'Oracle databases\'.',
+            'https://github.com/kp-marczynski/oracle'
           ),
           new PortfolioProject('Music Store',
             '2019',
             'undraw_happy_music_g6wc.svg',
-            ['Docker', 'PHP', '.Net Core', 'JavaScript'],
-            '',
-            ''
+            ['Docker', 'PHP', '.Net Core', 'JavaScript', 'HTML', 'CSS'],
+            'Simple e-commerce application with inventory and authentication written in PHP and consumer order handling in .NET core.',
+            'https://github.com/kp-marczynski/webowe'
           )
           ]
         ),
@@ -168,12 +169,12 @@ export class RepositoryService {
         2018,
         [
           new PortfolioProject('Android Gallery', '2018', 'undraw_organize_photos_d5nr.svg',
-            ['Kotlin', 'Android', 'Fresco'],
+            ['Kotlin', 'Android', 'Fresco', 'Gradle'],
             'Android gallery and jigsaw puzzle app with optimized images loading and caching using Fresco library.',
             'https://github.com/kp-marczynski/PAM-Android-Gallery'),
           new PortfolioProject('SeriesApp', '2018',
             'undraw_home_cinema_l7yl.svg',
-            ['Java', 'Spring Boot', 'Angular', 'JHipster'],
+            ['Java', 'Spring Boot', 'Angular', 'TypeScript', 'JHipster', 'MySQL', 'Liquibase', 'Maven', 'Docker Compose', 'JUnit', 'Mockito', 'Swagger', 'UML', 'HTML', 'CSS'],
             'Realization of TV series management project for uni \'Software Design\' course.',
             'https://github.com/kp-marczynski/seriesapp'),
           new PortfolioProject('Battleships', '2018',
@@ -185,55 +186,55 @@ export class RepositoryService {
           new PortfolioProject('Scala Akka',
             '2018',
             'undraw_grand_slam_0q5r.svg',
-            [],
-            '',
-            ''
+            ['Scala', 'Akka'],
+            'Simple showcase of akka usage in ping-pong and ball "games".',
+            'https://github.com/kp-marczynski/pp-scala-akka'
             ),
           new PortfolioProject('Scala Concurrency',
             '2018',
             'undraw_in_progress_ql66.svg',
-            [],
-            '',
-            ''
+            ['Scala', 'Concurrency'],
+            'Concurrency showcase written in scala.',
+            'https://github.com/kp-marczynski/pp-scala-concurrency'
           ),
           new PortfolioProject('Reverse polish notation calculator',
             '2018',
             'undraw_Calculator_0evy.svg',
-            [],
-            '',
-            ''
+            ['C++'],
+            'Command line app for calculator using reverse polish notation.',
+            'https://github.com/kp-marczynski/zmpo-reverse-polish-notation-calculator'
           ),
           new PortfolioProject('Sparse Matrix',
             '2018',
             'undraw_hacker_mind_6y85.svg',
-            [],
-            '',
-            ''
+            ['C++'],
+            'Implementation of sparse matrix data structure.',
+            'https://github.com/kp-marczynski/zmpo-sparse-matrix'
           )
         ]
       ),
       new ProjectsYear(2017,
         [
-          new PortfolioProject('Assembler',
+          new PortfolioProject('Assembly',
             '2017',
             'undraw_circuit_board_4c4d.svg',
-            [],
-            '',
-            ''
+            ['Assembly'],
+            'Implementation of calculator and Vigenère cipher encoder/decoder.',
+            'https://github.com/kp-marczynski/assembler'
           ),
           new PortfolioProject('Frame Allocation',
             '2017',
             'undraw_online_popularity_elhc.svg',
-            [],
-            '',
-            ''
+            ['Java'],
+            'Simulation of different processor frame allocation algorithms.',
+            'https://github.com/kp-marczynski/Symulacja-przydzialu-ramek'
           ),
           new PortfolioProject('Binary Search Tree and Heap',
             '2017',
             'undraw_japan_ubgk.svg',
-            [],
-            '',
-            ''
+            ['Java'],
+            'Basic implementation of Binary Search Tree (BST) and Heap',
+            'https://github.com/kp-marczynski/Binary-Search-Tree-and-Heap'
           )
         ]
         )
