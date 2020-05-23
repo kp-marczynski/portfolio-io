@@ -74,6 +74,14 @@ export class RepositoryService {
             ['Firebase', 'ESP8266', 'Arduino', 'OAuth', 'Auth0', 'Cloud functions', 'Angular'],
             'System for managing smart home devices based on ESP8266 board via Firebase and webapp with OAuth authentication',
             'https://github.com/kp-marczynski/smarthome'
+          ),
+          new PortfolioProject(
+            'LaTeX Bachelor Thesis',
+              '2020',
+              'undraw_learning_2q1h.svg',
+              ['LaTeX'],
+              'Contribution to template of bachelor thesis for Wroclaw University of Technology',
+              'https://github.com/kp-marczynski/praca_inzynierska_latex'
           )
         ]
       ),
@@ -107,7 +115,15 @@ export class RepositoryService {
             ['Kotlin', 'Spring', 'Angular', 'PostgreSQL', 'Liquibase', 'JHipster', 'Heroku'],
             'App for managing medical history records focused on adding scans of original documents ' +
             'and generating chronological reports with clearly marked abnormal results.',
-            'https://github.com/kp-marczynski/medicus')
+            'https://github.com/kp-marczynski/medicus'),
+          new PortfolioProject(
+            'Squid proxy',
+            '2019',
+            'undraw_destinations_fpv7.svg',
+            ['Squid', 'Docker Compose'],
+            'Configuration of multiple network topologies using Squid proxy and Docker Compose networking.',
+            'https://github.com/kp-marczynski/sw-squid'
+          )
           ]
         ),
       new ProjectsYear(
