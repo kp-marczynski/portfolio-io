@@ -1,5 +1,8 @@
 .portfolio-content {
   padding: 1rem 3rem 0;
+  @media (max-width: 750px) {
+    padding: 1rem 1rem 0;
+  }
 }
 
 .image-container {
