@@ -72,7 +72,7 @@ export class RepositoryService {
             '2020',
             'undraw_smart_home_28oy.svg',
             ['Firebase', 'ESP8266', 'Arduino', 'OAuth', 'Auth0', 'Cloud functions', 'Angular'],
-            'System for managing smart home devices based on ESP8266 board via Firebase and webapp with OAuth authentication',
+            'System for managing smart home devices based on ESP8266 board via Firebase and webapp with OAuth authentication.',
             'https://github.com/kp-marczynski/smarthome'
           ),
           new PortfolioProject(
@@ -80,7 +80,7 @@ export class RepositoryService {
               '2020',
               'undraw_learning_2q1h.svg',
               ['LaTeX'],
-              'Contribution to template of bachelor thesis for Wroclaw University of Technology',
+              'Contribution to template of bachelor thesis for Wroclaw University of Technology.',
               'https://github.com/kp-marczynski/praca_inzynierska_latex'
           )
         ]
