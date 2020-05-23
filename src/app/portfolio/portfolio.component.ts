@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {IPortfolioProject, PortfolioProject} from '../../model/portfolio-project.model';
 import {LinkShortenerService} from '../../service/link-shortener.service';
 import {RepositoryService} from '../../service/repository.service';
+import {IProjectsYear} from '../../model/projects-year';
 
 @Component({
   selector: 'app-portfolio',
@@ -10,29 +11,13 @@ import {RepositoryService} from '../../service/repository.service';
 })
 export class PortfolioComponent implements OnInit {
 
-  itemsPerPage = 9;
-
-  projects: IPortfolioProject[];
+  projectsYears: IProjectsYear[];
 
   constructor(public linkShortenerService: LinkShortenerService, private repo: RepositoryService) {
-    this.projects = repo.getAllPortfolioProjects();
+    this.projectsYears = repo.getAllPortfolioProjects();
+    this.projectsYears.sort((a, b) => b.year - a.year);
   }
 
   ngOnInit() {
-  }
-
-  getNumberOfPages(): number[] {
-    return [...Array(Math.ceil((this.projects.length + 1) / this.itemsPerPage)).keys()];
-  }
-
-  getProjectsForPage(pageNumber: number): IPortfolioProject[] {
-    let itemsOnCurrentPage = this.itemsPerPage;
-    let position = pageNumber * this.itemsPerPage;
-    if (pageNumber === 0) {
-      itemsOnCurrentPage--;
-    } else {
-      position--;
-    }
-    return this.projects.slice(position, position + itemsOnCurrentPage > this.projects.length ? this.projects.length : position + itemsOnCurrentPage);
   }
 }

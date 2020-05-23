@@ -6,3 +6,9 @@
 a {
   color: white;
 }
+
+@media print {
+  header {
+    border-bottom: 2px solid whitesmoke;
+  }
+}
