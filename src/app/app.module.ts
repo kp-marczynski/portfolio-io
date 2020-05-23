@@ -5,7 +5,6 @@ import {AppComponent} from './app.component';
 import {PortfolioComponent} from './portfolio/portfolio.component';
 
 import {PortfolioHeaderComponent} from './portfolio/portfolio-header/portfolio-header.component';
-import {QRCodeModule} from 'angular2-qrcode';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import {QRCodeModule} from 'angular2-qrcode';
     PortfolioHeaderComponent
   ],
   imports: [
-    BrowserModule,
-    QRCodeModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -44,6 +44,7 @@ body {
   background-color: white;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   margin: 2rem auto;
+  max-width: var(--A4-page-width-large);
 }
 
 h1, h2, h3, h4 {
@@ -149,6 +150,6 @@ aside {
     width: 100% !important;
     height: auto;
     max-width: 100% !important;
-    page-break-after: always;
+    //page-break-after: always;
   }
 }

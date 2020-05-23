@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "resume-io": {
+    "portfolio-io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/resume-io",
+            "outputPath": "dist/portfolio-io",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "resume-io:build"
+            "browserTarget": "portfolio-io:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "resume-io:build:production"
+              "browserTarget": "portfolio-io:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "resume-io:build"
+            "browserTarget": "portfolio-io:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "resume-io:serve"
+            "devServerTarget": "portfolio-io:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "resume-io:serve:production"
+              "devServerTarget": "portfolio-io:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "resume-io"
+  "defaultProject": "portfolio-io"
 }

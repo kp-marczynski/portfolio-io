@@ -1,12 +1,12 @@
-<header class="bg-primary text-white portfolio-header">
+<header class="bg-primary text-white portfolio-header page">
   <div class="row">
     <div class="col-sm-9">
       <h1>{{personalInfo.firstName}} {{personalInfo.lastName}}</h1>
       <h2>{{personalInfo.shortPositionName}} Portfolio</h2>
+<!--      <p class="badge-container">-->
+<!--        <span class="badge badge-pill badge-light" *ngFor="let skill of coreSkills.skills">{{skill}}</span>-->
+<!--      </p>-->
       <h5>More on: <a href="{{portfolioUrl}}">{{linkShortenerService.getLinkWithoutParams(portfolioUrl)}}</a></h5>
-      <p class="badge-container">
-        <span class="badge badge-pill badge-light" *ngFor="let skill of coreSkills.skills">{{skill}}</span>
-      </p>
     </div>
   </div>
 </header>
