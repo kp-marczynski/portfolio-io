@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private repo: RepositoryService) {
     const personalInfo: IPersonalInfo = repo.getPersonalInfo();
-    document.title = 'CV ' + personalInfo.lastName + ' ' + personalInfo.firstName + ' - ' + personalInfo.longPositionName;
+    document.title = 'Portfolio ' + personalInfo.lastName + ' ' + personalInfo.firstName + ' - ' + personalInfo.longPositionName;
     // + ' - ' + new Date().toJSON().slice(0, 10);
   }
 }
