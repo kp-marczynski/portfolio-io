@@ -82,6 +82,14 @@ export class RepositoryService {
               ['LaTeX'],
               'Contribution to template of bachelor thesis for Wroclaw University of Technology.',
               'https://github.com/kp-marczynski/praca_inzynierska_latex'
+          ),
+          new PortfolioProject(
+            'Simple IRC Chat',
+            '2020',
+            'undraw_online_chat_d7ek.svg',
+            ['Kotlin', 'Angular', 'Websockets', 'RabbitMQ'],
+            'IRC chat foundation app.',
+            'https://github.com/kp-marczynski/im-chat'
           )
         ]
       ),
@@ -123,6 +131,36 @@ export class RepositoryService {
             ['Squid', 'Docker Compose'],
             'Configuration of multiple network topologies using Squid proxy and Docker Compose networking.',
             'https://github.com/kp-marczynski/sw-squid'
+          ),
+          new PortfolioProject(
+            'Constraint satisfaction',
+            '2019',
+            'undraw_coming_home_52ir.svg',
+            ['Java', 'Gradle'],
+            'Application for solving constraint satisfaction problem in games futoshiki and skyscrapers.',
+            'https://github.com/kp-marczynski/si-constraint-satisfaction-problem'
+          ),
+          new PortfolioProject(
+            'XML RPC',
+            '2019',
+            'undraw_server_down_s4lk.svg',
+            ['XML-RPC', 'Gradle', 'Java'],
+            'Realisation of task for Uni \'Distributed IT Systems\' course',
+            'https://github.com/kp-marczynski/rsi-xmlrpc'
+          ),
+          new PortfolioProject('Oracle',
+            '2019',
+            'undraw_maintenance_cn7j.svg',
+            ['Oracle DB', 'PL/SQL'],
+            '',
+            ''
+          ),
+          new PortfolioProject('Music Store',
+            '2019',
+            'undraw_happy_music_g6wc.svg',
+            ['Docker', 'PHP', '.Net Core', 'JavaScript'],
+            '',
+            ''
           )
           ]
         ),
@@ -132,9 +170,73 @@ export class RepositoryService {
           new PortfolioProject('Android Gallery', '2018', 'undraw_organize_photos_d5nr.svg',
             ['Kotlin', 'Android', 'Fresco'],
             'Android gallery and jigsaw puzzle app with optimized images loading and caching using Fresco library.',
-            'https://github.com/kp-marczynski/PAM-Android-Gallery')
+            'https://github.com/kp-marczynski/PAM-Android-Gallery'),
+          new PortfolioProject('SeriesApp', '2018',
+            'undraw_home_cinema_l7yl.svg',
+            ['Java', 'Spring Boot', 'Angular', 'JHipster'],
+            'Realization of TV series management project for uni \'Software Design\' course.',
+            'https://github.com/kp-marczynski/seriesapp'),
+          new PortfolioProject('Battleships', '2018',
+            'undraw_Yacht_8g6r.svg',
+            ['Java'],
+            'Command line battleship game against computer.',
+            'https://github.com/kp-marczynski/statki'
+          ),
+          new PortfolioProject('Scala Akka',
+            '2018',
+            'undraw_grand_slam_0q5r.svg',
+            [],
+            '',
+            ''
+            ),
+          new PortfolioProject('Scala Concurrency',
+            '2018',
+            'undraw_in_progress_ql66.svg',
+            [],
+            '',
+            ''
+          ),
+          new PortfolioProject('Reverse polish notation calculator',
+            '2018',
+            'undraw_Calculator_0evy.svg',
+            [],
+            '',
+            ''
+          ),
+          new PortfolioProject('Sparse Matrix',
+            '2018',
+            'undraw_hacker_mind_6y85.svg',
+            [],
+            '',
+            ''
+          )
         ]
-      )
+      ),
+      new ProjectsYear(2017,
+        [
+          new PortfolioProject('Assembler',
+            '2017',
+            'undraw_circuit_board_4c4d.svg',
+            [],
+            '',
+            ''
+          ),
+          new PortfolioProject('Frame Allocation',
+            '2017',
+            'undraw_online_popularity_elhc.svg',
+            [],
+            '',
+            ''
+          ),
+          new PortfolioProject('Binary Search Tree and Heap',
+            '2017',
+            'undraw_japan_ubgk.svg',
+            [],
+            '',
+            ''
+          )
+        ]
+        )
     ];
   }
 }
