@@ -54,7 +54,7 @@ export class RepositoryService {
             'Barcode Parser',
             '2020',
             'undraw_task_31wc.svg',
-            ['Kotlin', 'Android library', 'GS1-128'],
+            ['Kotlin', 'Kotlintest', 'Android library', 'GS1-128'],
             'Android library for extracting GS1-128 data from barcodes.',
             'https://github.com/kp-marczynski/barcode-parser'
           ),
