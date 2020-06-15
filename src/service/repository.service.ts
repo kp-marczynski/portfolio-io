@@ -51,6 +51,15 @@ export class RepositoryService {
         2020,
         [
           new PortfolioProject(
+            'Data Processor',
+            '2020',
+            'undraw_data_processing_yrrv.svg',
+            ['Kotlin', 'JUnit', 'Fuel', 'Clikt', 'Mockk', 'Kotlin logging', 'org.JSON'],
+            'Script for downloading data from provided source and saving it with selected writer. ' +
+            'Easily extensible due to the dynamic configuration based on factories and the separation of supplier, parser and writer layers.',
+            'https://github.com/kp-marczynski/data-processor'
+          ),
+          new PortfolioProject(
             'Barcode Parser',
             '2020',
             'undraw_task_31wc.svg',
