@@ -73,7 +73,7 @@ export class RepositoryService {
             'Due to personal data stored in resume repository, only portfolio project is publicly available.',
             'https://github.com/kp-marczynski/portfolio'),
           new PortfolioProject('Ionic Songbook', '2020', 'undraw_listening_1u79.svg',
-            ['Angular', 'TypeScript', 'Ionic', 'IndexedDB', 'Firebase OAuth', 'Firebase Hosting', 'Firestore', 'PWA', 'HTML', 'SCSS'],
+            ['React', 'Angular', 'TypeScript', 'Ionic', 'IndexedDB', 'Firebase OAuth', 'Firebase Hosting', 'Firestore', 'PWA', 'HTML', 'SCSS'],
             'Songbook developed as a hybrid web app. The first application on the market to offer sharing ' +
             '(and automatic refreshing after change) of the song currently played by the guitarist to all campfire participants.',
             'https://github.com/kp-marczynski/songbook'),
