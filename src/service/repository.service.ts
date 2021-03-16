@@ -1,10 +1,9 @@
 import {Injectable} from '@angular/core';
 import {ContactInfo, IContactInfo} from '../model/contact-info.model';
 import {IPersonalInfo, PersonalInfo} from '../model/personal-info.model';
-import {IPortfolioProject, PortfolioProject} from '../model/portfolio-project.model';
+import {PortfolioProject} from '../model/portfolio-project.model';
 import {ISkillGroup, SkillGroup} from '../model/skill-group.model';
 import {Link} from '../model/link.model';
-import * as moment from 'moment';
 import {IProjectsYear, ProjectsYear} from '../model/projects-year';
 
 @Injectable({
@@ -48,6 +47,42 @@ export class RepositoryService {
   getAllPortfolioProjects(): IProjectsYear[] {
     return [
       new ProjectsYear(
+        2021,
+        [
+          new PortfolioProject(
+            'Offshore Transfer Prices',
+            '2021',
+            '',
+            ['Kotlin'],
+            '',
+            'https://github.com/kp-marczynski/offshore-transfer-prices')
+        ]
+      ),
+      new ProjectsYear(
+        2021,
+        [
+          new PortfolioProject(
+            'Beautysurvey',
+            '2021',
+            '',
+            ['Kotlin', 'Angular', 'SpringBoot'],
+            '',
+            'https://github.com/kp-marczynski/beautysurvey')
+        ]
+      ),
+      new ProjectsYear(
+      2021,
+      [
+        new PortfolioProject(
+          'Hitchguide',
+          '2021',
+          '',
+          ['React'],
+          '',
+          'https://github.com/kp-marczynski/hitchguide')
+      ]
+    ),
+      new ProjectsYear(
         2020,
         [
           new PortfolioProject(
@@ -87,11 +122,11 @@ export class RepositoryService {
           ),
           new PortfolioProject(
             'LaTeX Bachelor Thesis',
-              '2020',
-              'undraw_learning_2q1h.svg',
-              ['LaTeX'],
-              'Contribution to template of bachelor thesis for Wroclaw University of Technology.',
-              'https://github.com/kp-marczynski/praca_inzynierska_latex'
+            '2020',
+            'undraw_learning_2q1h.svg',
+            ['LaTeX'],
+            'Contribution to template of bachelor thesis for Wroclaw University of Technology.',
+            'https://github.com/kp-marczynski/praca_inzynierska_latex'
           ),
           new PortfolioProject(
             'Simple IRC Chat',
@@ -172,8 +207,8 @@ export class RepositoryService {
             'Simple e-commerce application with inventory and authentication written in PHP and consumer order handling in .NET core.',
             'https://github.com/kp-marczynski/webowe'
           )
-          ]
-        ),
+        ]
+      ),
       new ProjectsYear(
         2018,
         [
@@ -198,7 +233,7 @@ export class RepositoryService {
             ['Scala', 'Akka'],
             'Simple showcase of akka usage in ping-pong and ball "games".',
             'https://github.com/kp-marczynski/pp-scala-akka'
-            ),
+          ),
           new PortfolioProject('Scala Concurrency',
             '2018',
             'undraw_in_progress_ql66.svg',
@@ -246,7 +281,7 @@ export class RepositoryService {
             'https://github.com/kp-marczynski/Binary-Search-Tree-and-Heap'
           )
         ]
-        )
+      )
     ];
   }
 }
