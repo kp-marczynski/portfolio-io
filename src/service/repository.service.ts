@@ -55,33 +55,23 @@ export class RepositoryService {
             '',
             ['Kotlin'],
             '',
-            'https://github.com/kp-marczynski/offshore-transfer-prices')
-        ]
-      ),
-      new ProjectsYear(
-        2021,
-        [
+            'https://github.com/kp-marczynski/offshore-transfer-prices'),
           new PortfolioProject(
             'Beautysurvey',
             '2021',
             '',
-            ['Kotlin', 'Angular', 'SpringBoot'],
+            ['Kotlin', 'Angular', 'SpringBoot', 'JHipster', 'Heroku', 'PostgreSQL'],
             '',
-            'https://github.com/kp-marczynski/beautysurvey')
+            'https://github.com/kp-marczynski/beautysurvey'),
+          new PortfolioProject(
+            'Hitchguide',
+            '2021',
+            '',
+            ['React'],
+            '',
+            'https://github.com/kp-marczynski/hitchguide')
         ]
       ),
-      new ProjectsYear(
-      2021,
-      [
-        new PortfolioProject(
-          'Hitchguide',
-          '2021',
-          '',
-          ['React'],
-          '',
-          'https://github.com/kp-marczynski/hitchguide')
-      ]
-    ),
       new ProjectsYear(
         2020,
         [
