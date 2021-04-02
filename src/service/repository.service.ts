@@ -50,24 +50,31 @@ export class RepositoryService {
         2021,
         [
           new PortfolioProject(
+            'BookitOne',
+            '2021',
+            'undraw_Booking_re_gw4j.svg',
+            ['React', 'Kotlin', 'SpringBoot', 'Swagger', 'OpenAPI', 'MongoDB'],
+            '',
+            ''),
+          new PortfolioProject(
             'Offshore Transfer Prices',
             '2021',
-            '',
+            'undraw_transfer_money_rywa.svg',
             ['Kotlin'],
             '',
             'https://github.com/kp-marczynski/offshore-transfer-prices'),
           new PortfolioProject(
             'Beautysurvey',
             '2021',
-            '',
+            'undraw_escaping_my1b.svg',
             ['Kotlin', 'Angular', 'SpringBoot', 'JHipster', 'Heroku', 'PostgreSQL'],
             '',
             'https://github.com/kp-marczynski/beautysurvey'),
           new PortfolioProject(
             'Hitchguide',
             '2021',
-            '',
-            ['React'],
+            'undraw_Map_dark_re_36sy.svg',
+            ['React', 'Ionic', 'OpenLayers'],
             '',
             'https://github.com/kp-marczynski/hitchguide')
         ]
