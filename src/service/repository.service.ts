@@ -54,28 +54,28 @@ export class RepositoryService {
             '2021',
             'undraw_Booking_re_gw4j.svg',
             ['React', 'Kotlin', 'SpringBoot', 'Swagger', 'OpenAPI', 'MongoDB'],
-            '',
+            'Embeddable shop solution with calendar and payment integrations.',
             ''),
           new PortfolioProject(
             'Offshore Transfer Prices',
             '2021',
             'undraw_transfer_money_rywa.svg',
             ['Kotlin'],
-            '',
+            'Optimizing production cost and taxes for capital group operating in several different countries assuming that in each country exactly one production stage takes place.',
             'https://github.com/kp-marczynski/offshore-transfer-prices'),
           new PortfolioProject(
             'Beautysurvey',
             '2021',
             'undraw_escaping_my1b.svg',
             ['Kotlin', 'Angular', 'SpringBoot', 'JHipster', 'Heroku', 'PostgreSQL'],
-            '',
+            'App for conducting surveys with multiple variants with requirement to collect same amount of answers for each variant, gender and country.',
             'https://github.com/kp-marczynski/beautysurvey'),
           new PortfolioProject(
             'Hitchguide',
             '2021',
             'undraw_Map_dark_re_36sy.svg',
             ['React', 'Ionic', 'OpenLayers'],
-            '',
+            'Upgrade from HitchwikiPoi project with focus shift to offer hitchhikers benefit of using a lightweight map in the browser.',
             'https://github.com/kp-marczynski/hitchguide')
         ]
       ),
