@@ -53,7 +53,7 @@ export class RepositoryService {
             'BookitOne',
             '2021',
             'undraw_Booking_re_gw4j.svg',
-            ['React', 'Kotlin', 'SpringBoot', 'Swagger', 'OpenAPI', 'MongoDB'],
+            ['Kotlin', 'SpringBoot', 'React', 'Nginx', 'Tailwind', 'Material UI', 'MongoDB', 'Javers', 'OpenAPI', 'Feign', 'Docker', 'Kubernetes', 'Helm', 'Ingress', 'SMTP'],
             'Embeddable shop solution with calendar and payment integrations.',
             ''),
           new PortfolioProject(
